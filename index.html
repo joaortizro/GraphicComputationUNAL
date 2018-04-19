@@ -1,5 +1,9 @@
+<!-- Etiqueta con la que se comienza el html5 , es una referencia para que el navegador reconozca que version de html se maneja -->
 <!DOCTYPE html>
+<!-- inmediatamente despues de decir la version de html, se utiliza la etiqueta html, para decir que es un archivo html -->
 <html>
+
+<!-- siguiendo la estructura basica de un html , se utiliza la etiqueta <head> para encapusular los estilos, informacion <meta> , scripts ,entre otros -->
 
 <head>
   <meta charset="utf-8" />
@@ -10,9 +14,10 @@
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 
 </head>
+<!-- siguiendo con la estructura basica del html, la etiqueta <body> define el cuepo de nuestro documento html,generalmente contiene texto, imaganes , videos, tablas, enlaces , entre otros -->
 
 <body>
-
+  <!-- div para la barra de navegacion -->
   <div class="navigation-bar">
     <a href="#" class="link">Introduccion</a>
     <a href="#" class="link">Historia</a>
@@ -21,45 +26,42 @@
     <a href="#" class="link">Destacados</a>
     <a href="#" class="link">Importantes</a>
   </div>
-
+  <!-- div para el contenido principal del archivo index.html -->
   <div class="container">
-
+    <!-- div para el banner de la pagina , encotramos un titulo y imagen -->
     <div class="banner">
+      <!-- titulo del banner -->
       <h1 id="heading">
         Video Games
       </h1>
+      <!-- imagen del banner -->
       <img src="assets/images/banner.jpg" alt="">
     </div>
 
-    <div class="introduction">
+    <!-- div para encapsular el texto en donde se define brevemente el videojuego -->
+    <div class="definition">
+      <!--  tutlo de la definicion -->
       <h1 id="header">
-        Introduccion
+        ¿ Qué son ?
       </h1>
-
+      <!-- texto de la definicion -->
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tempore eaque consequuntur, dignissimos eum itaque quae
         sunt adipisci cupiditate, est nisi laboriosam consequatur fugiat fugit tempora iusto velit nesciunt aliquam.
       </p>
 
-
+      <!-- div que contiene video -->
       <div class="videos">
+        <!-- titulo de la seccion de los videos -->
         <h1 id="header">
           Enlaces interesantes
         </h1>
+        <!-- video embebido -->
         <iframe controls="controls" width="420" height="345" src="https://www.youtube.com/embed/fdzizI3MEUs">
         </iframe>
       </div>
     </div>
-
-
-
-
   </div>
-
-
-
-
-
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+
+/* estilos para el html y body en general , se define principalmente la fuente para el texto,
+el margen y padding de 0 , con la totalidad de uso de pantalla, tanto alto como ancho*/
 html,
 body {
   margin: 0;
@@ -6,6 +9,8 @@ body {
   height: 100%;
   font-family: sans-serif;
 }
+/* referencia para el estilo de la barra de navegacion, se desea un color de fondo negro , y alineado a la izquierda
+seaparacion de 15 pixeles para que el texto no quede tan pegado */
 .navigation-bar {
   background-color: black;
 
@@ -13,12 +18,13 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
+/* referencia a los botones de la barra de navegacion, texo blanco, y seperacion entre texto derecha y izquierda de 15 px */
 .navigation-bar .link {
   padding-left: 15px;
   padding-right: 15px;
   color: white;
 }
+/* referencia para  */
 .container {
   width: 100%;
   text-align: center;
@@ -40,7 +46,7 @@ body {
 .banner img {
   width: 100%;
 }
-.container .introduction {
+.container .definition {
   background-color: #f8f8f8;
   position: relative;
   margin-left: 10%;
