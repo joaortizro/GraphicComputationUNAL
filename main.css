@@ -76,3 +76,14 @@ backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusific
 .container .videos {
   text-align: center;
 }
+
+
+/* HISTORY CSS */
+.container .history {
+  background-color: #f8f8f8;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: 20px;
+}
