@@ -24,17 +24,22 @@ seaparacion de 15 pixeles para que el texto no quede tan pegado */
   padding-right: 15px;
   color: white;
 }
-/* referencia para  */
+/* referencia para el div con clase contenedor , se usa todo el ancho de la pantalla con los textos en el centro */
 .container {
   width: 100%;
   text-align: center;
 }
+/* referencia para el contenedor del  banner o imagen de bienvenida , utilizara un 50% de la pantalla , con posicion relativa y margen automatico
+  con ninguna repeticion en el espacion asignado  */
 .banner {
   width: 50%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
+/* referencia para el texto que esta sobre el banner , en este caso VIDEOJUEGOS, su posicion es absoluta respecto a el html
+y tenfra un display de bloque para que el contenido sea encerrado en un caja , que tiene la capacidad de configurarse con altura y ancho
+, este heading tendra una fuente grande */
 .banner #heading {
   display: inline-block;
   top: 8px;
@@ -43,9 +48,12 @@ seaparacion de 15 pixeles para que el texto no quede tan pegado */
   position: absolute;
   font-size: 60px;
 }
+/* referencia para la imagen del banner, usara todo el campo del div asignado para el banner  */
 .banner img {
   width: 100%;
 }
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
 .container .definition {
   background-color: #f8f8f8;
   position: relative;
@@ -54,12 +62,17 @@ seaparacion de 15 pixeles para que el texto no quede tan pegado */
   text-align: justify;
   font-size: 20px;
 }
+/* refenrecia para el texto de la deficion dado por el tag de P . separados de los bordes del container en un 10%*/
+.container p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* referenia para el titulo del container que tiene la definicion, alineado al centro */
 .container #header {
   text-align: center;
 }
-/* .container .videos {
-  text-align: center;
-  background-color: #f8f8f8;
-  
 
-} */
+/* referencia para el video, alineado en el centro */
+.container .videos {
+  text-align: center;
+}
