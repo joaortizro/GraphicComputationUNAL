@@ -77,6 +77,8 @@ backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusific
 }
 
 /* HISTORY CSS */
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
 .container .history {
   background-color: #f8f8f8;
   position: relative;
@@ -85,8 +87,79 @@ backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusific
   text-align: justify;
   font-size: 20px;
 }
-
+/* las imagenes estan alineadas con la izquierda  */
 .images1 figure {
   margin-left: 10%;
   text-align: center;
+}
+
+
+/* TYPES CSS */
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
+.container .types {
+  background-color: #f8f8f8;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: 20px;
+}
+/* como la images de Guild wars 2 es muy amplia , se reduce su tamaño */
+.images2 #gw2{
+  width: 350px;
+  height: 500px;
+}
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
+.images2 figure{
+    margin-left: 10%;
+  text-align: center;
+}
+
+/* championship css */
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
+.container .championship {
+  background-color: #f8f8f8;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: 20px;
+}
+/* titulo en el centro */
+.championship h1{
+  text-align: center;
+}
+
+/* famous css */
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
+.container .famous {
+  background-color: #f8f8f8;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: 20px;
+}
+.famous h1{
+  text-align: center;
+}
+.famous #scarlett{
+  width: 500px;
+  height: 350px;
+}
+
+/* Important css */
+/* referencia para el container que contiene la definicion de los videojuegos , la posicion es relativa con un 
+backgorund ligeramente gris, separado de los bordes un 10%, con el texto jusificado y una fuente de 20px */
+.container .important {
+  background-color: #f8f8f8;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: 20px;
 }
